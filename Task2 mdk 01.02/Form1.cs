@@ -32,12 +32,7 @@ namespace Task2_mdk_01._02
             textBox5.Clear();
             textBox6.Clear();
         }
-
-        private void ответToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
+  
         private void оПрограммеToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Выполнил студент: Серегин Денис\n" +
@@ -47,5 +42,14 @@ namespace Task2_mdk_01._02
                 "программу для определения возможности прохождения кирпича через заданное отверстие.",
                 "О программе", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+        
+        private void ответToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+
     }
 }
