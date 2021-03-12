@@ -9,7 +9,7 @@ namespace TaskLib
     public class Class1
     {
         /// <summary>
-        /// 
+        /// Проверка проходимости кирпича через отверстие
         /// </summary>
         /// <param name="longRectangle"> Длина кирпича</param>
         /// <param name="widthRectangle">Ширина кирпича</param>
