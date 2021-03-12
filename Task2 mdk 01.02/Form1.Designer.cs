@@ -144,7 +144,6 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(234, 20);
             this.textBox4.TabIndex = 1;
-            this.textBox4.Text = "ЫЫЫЫ";
             // 
             // groupBox1
             // 
