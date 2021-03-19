@@ -21,7 +21,8 @@ namespace TaskLib
         {
             //int s_otv = longPort * widthPort;
             if ((longPort == longRectangle && widthPort == widthRectangle) || (widthRectangle == longPort && longRectangle == widthPort) 
-                || (longPort == widthRectangle && widthPort == heightRectangle) || (longPort == heightRectangle && widthPort == longRectangle) || (longPort == heightRectangle && widthPort  == widthRectangle) || (longPort == longRectangle && widthPort == heightRectangle))
+                || (longPort == widthRectangle && widthPort == heightRectangle) || (longPort == heightRectangle && widthPort == longRectangle)
+                || (longPort == heightRectangle && widthPort  == widthRectangle) || (longPort == longRectangle && widthPort == heightRectangle))
             {
                 return true;
             }
